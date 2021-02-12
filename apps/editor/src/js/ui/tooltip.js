@@ -32,7 +32,7 @@ class Tooltip {
     const top = targetRect.top + window.pageYOffset;
 
     css(this.el, {
-      top: `${top + target.clientHeight + TOOLTIP_TOP_INDENT}px`,
+      bottom: `${top + target.clientHeight + TOOLTIP_TOP_INDENT}px`,
       left: `${left + 3}px`
     });
 

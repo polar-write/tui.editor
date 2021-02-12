@@ -88,7 +88,7 @@ class PopupAddHeading extends LayerPopup {
       const { offsetTop, offsetLeft } = button;
 
       css(this.el, {
-        top: `${offsetTop + domUtils.getOuterHeight(button)}px`,
+        bottom: `${offsetTop + domUtils.getOuterHeight(button)}px`,
         left: `${offsetLeft}px`
       });
 

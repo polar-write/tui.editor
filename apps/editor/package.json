@@ -1,5 +1,5 @@
 {
-  "name": "@toast-ui/editor",
+  "name": "polar-tui-editor",
   "version": "2.5.1",
   "description": "GFM  Markdown Wysiwyg Editor - Productive and Extensible",
   "keywords": [
@@ -102,5 +102,8 @@
   "dependencies": {
     "@types/codemirror": "0.0.71",
     "codemirror": "^5.48.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

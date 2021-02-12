@@ -1,5 +1,5 @@
 import React from 'react';
-import Editor from '@toast-ui/editor';
+import Editor from 'polar-tui-editor';
 
 export default class extends React.Component {
   rootEl = React.createRef();

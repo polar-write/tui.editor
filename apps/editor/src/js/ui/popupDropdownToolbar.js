@@ -169,7 +169,7 @@ class PopupDropdownToolbar extends LayerPopup {
         domUtils.getOuterWidth(this.el, true);
 
       css(this.el, {
-        top: `${top}px`,
+        bottom: `${top}px`,
         left: `${left}px`
       });
     });

@@ -1,6 +1,6 @@
 import { Component } from 'react';
-import ToastuiEditor, { EditorOptions, SourceType, MarkdownToolbarState, WysiwygToolbarState } from '@toast-ui/editor';
-import ToastuiEditorViewer, { ViewerOptions } from '@toast-ui/editor/dist/toastui-editor-viewer';
+import ToastuiEditor, { EditorOptions, SourceType, MarkdownToolbarState, WysiwygToolbarState } from 'polar-tui-editor';
+import ToastuiEditorViewer, { ViewerOptions } from 'polar-tui-editor/dist/toastui-editor-viewer';
 
 
 type EditorProps = Omit<EditorOptions & {
